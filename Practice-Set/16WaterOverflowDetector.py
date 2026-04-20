@@ -32,4 +32,5 @@ for i in range(n):
     if total>=tank and filled_time==-1:
         filled_time=min
         
+        
 print(filled_time)
