@@ -6,6 +6,16 @@ Given a password string:
 ● Must contain at least 1 uppercase 
 ● Length ≥ 8 
 Print STRONG or WEAK.
+Input: 
+password 
+Output: 
+STRONG 
+Sample Input: 
+Pass1234 
+Sample Output: 
+STRONG 
+Hint: 
+Loop through characters and count conditions manually.
 """
 
 password = input("Enter your password: ")

@@ -5,7 +5,37 @@ An ATM processes N withdrawal requests sequentially.
 Each request has an amount. Rules: 
 ● Withdrawal amount must be a multiple of 100 
 ● Account balance must never go negative 
-● For each transaction, print SUCCESS or FAILED 
+● For each transaction, print SUCCESS or FAILED
+Input 
+InitialBalance 
+N 
+amount1 
+amount2 
+... 
+amountN 
+Output 
+SUCCESS 
+FAILED 
+SUCCESS 
+... 
+FinalBalance 
+Sample Input: 
+5000 
+4 
+1200 
+155 
+2000 
+2500 
+ 
+Sample Output: 
+SUCCESS 
+FAILED 
+SUCCESS 
+FAILED 
+1800 
+ 
+Hint: 
+Update balance only if both conditions are satisfied. 
 '''
 
 balance = input("Enter initial account balance: ")

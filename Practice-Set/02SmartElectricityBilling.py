@@ -9,6 +9,18 @@ Electricity bill is calculated slab-wise:
 ● Remaining → ₹8/unit 
  
 If usage > 300 units, add 10% surcharge.
+Input: 
+units 
+ 
+ 
+Output: 
+total_bill 
+Sample Input 
+350: 
+Sample Output: 
+1540 
+Hint: 
+Apply slabs incrementally, then apply surcharge conditionally.
 """
 
 units=float(input("Enter total electricity units consumed: "))
