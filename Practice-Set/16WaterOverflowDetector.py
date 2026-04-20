@@ -23,13 +23,13 @@ n=int(input())
 tank=1000
 min=0
 total=0
-filled_time=1
+filled_time=-1
 
 for i in range(n):
     inflow=int(input())
     total+=inflow
     min+=1
-    if total>=tank and filled_time==1:
+    if total>=tank and filled_time==-1:
         filled_time=min
         
 print(filled_time)
