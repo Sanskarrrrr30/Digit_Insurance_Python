@@ -1,6 +1,0 @@
-Name: Alice
-Age: 30
-This line is appended to the file.
-We can append multiple lines to the file.
-This line is appended to the file.
-We can append multiple lines to the file.
